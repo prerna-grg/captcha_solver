@@ -1,0 +1,5 @@
+Train:
+python3 train.py --cap_scheme qihu --cap_len 5 --char_set_len 62 --loadHeight 40 --loadWidth 100 --epoch 100
+
+Test:
+python3 test.py --cap_scheme qihu --cap_len 5 --char_set_len 62 --loadHeight 40 --loadWidth 100  --base_model_name qihu_finetune.model
